@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+    <title>Phoebe Karanja</title>
+    <link rel="shortcut icon" href="img">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-black">
+            <a href="#" class="w3-bar-item w3-button w3-left w3-padding-16">Home</a>
+            <a href="#contacts" class="w3-bar-item w3-button w3-right w3-padding-16">Contacts</a>
+            <a href="#projects" class="w3-bar-item w3-button w3-right w3-padding-16">Projects</a>
+            <a href="#skills" class="w3-bar-item w3-button w3-right w3-padding-16">Skills</a>
+            <a href="#profile" class="w3-bar-item w3-button w3-right w3-padding-16">Profile</a>
+
+
+        </div>
+    </div>
+
+    <div class="intro text-center">
+        <br><br><br><br><br><br><br><br>
+        <h1>IAN KABUGI WAIRIMU</h1>
+        <br><br>
+        <p><small>young rolls faster</small></p>
+        
+    </div> 
+   
+    <div class="container">
+        <h2>ABOUT ME</h2>
+        <div class="row">
+
+            <div class="col-md-3" style="width: 300px; height:300px;"><br><br>
+
+                <img src="img/kabugi.jpg" class="w3-circle" id="img" alt="Ian Kabugi Wairimu"
+                    style="width: 300px; height:300px;">
+
+
+
+            </div><br><br>
+            <div class="col-md-6 col-lg-6" id="profile">
+                <h2>Bio</h2>
+                <p>I am Ian Kabugi Wairimu,a fullstack software developer. I love coding and really enjoy what I do. I
+                    also love Internet of Things(IoT) and in the future I want to become a full pledged data scientist.
+                    Moreover,its said that too much work without play made Jack a dull boy and well am not the dull one,
+                    I love swimming,making jokes and playing basketball</p>
+            </div>
+            <div class=" col-md-3 col-lg-3"><br>
+                <canvas id="canvas" width="400" height="300" style="background-color:#808080">
+                </canvas>
+            </div>
+
+        </div>
+        <br><br><br><br><br><br><br>
+        <div class="skills" id="skills">
+            <h2>SKILLS</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>ANGULAR</li>
+                <LI>PYTHON</LI>
+            </ul>
+        </div><br><br><br><br><br><br><br>
+        <div class="projects" id="projects">
+            <h2>PROJECTS</h2>
+            <ul>
+                <li><a href="https://iankabugi.github.io/Quiz-board/" target="_blank">Quiz-board</a></li>
+                <li><a href="https://iankabugi.github.io/gsearch/" target="_blank">Github search</a></li>
+                <li><a href="https://buginews.herokuapp.com/" target="_blank">News highlight</a></li>
+                <li><a href="https://bugigallery.herokuapp.com/" target="_blank">Gallery</a></li>
+                <li><a href="https://bugiawards.herokuapp.com/" target="_blank">Awards</a></li>
+            </ul>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://iankabugi.github.io/Quiz-board/" target="_blank"><img src="img/quizboard.png"></a>
+                </td>
+                <td>
+                    <a href="https://bugigallery.herokuapp.com/" target="_blank"><img src="img/gallery.png"></a>
+                </td>
+                <td>
+                    <a href="https://iankabugi.github.io/gsearch/" target="_blank"><img src="img/gsearch.png"></a>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p>This is a basic web app made by using javascript and jquery. It is basically a short test </p>
+                </td>
+                <td>
+                    <p>A webbased gallery application, where users can post their pictures in a chronological order and
+                        view the image details. I created this using Django,a python framework.</p>
+                </td>
+                <td>
+                    <p>This is an angular github search web application. I primarily did to test my skill on calling an
+                        API using angular.</p>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://buginews.herokuapp.com/" target="_blank"><img src="img/news.png"></a>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p>This a news web app. I developed it using Flask a Python microframework</p>
+                </td>
+            </tr>
+        </table>
+        <div class="contacts" id="contacts">
+            <h2>CONTACTS</h2>
+            <i class="fa fa-github" style="font-size:36px"></i>
+            <i class="fa fa-linkedin-square" style="font-size:36px"></i>
+            <i class='fa fa-envelope' style='font-size:36px'></i>
+
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
